@@ -1,9 +1,8 @@
 
 
 const getFullYear = () => {
-    const d = new Date();
-    let year = d.getFullYear;
-    return year;
+    const currentYear = new Date().getFullYear();
+    return currentYear;
 }
 
 const getFooterCopy = (isIndex) => {
